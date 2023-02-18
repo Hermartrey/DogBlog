@@ -56,10 +56,51 @@
           <img
             src="https://images.pexels.com/photos/2607544/pexels-photo-2607544.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
             alt="cute dog from pexel.com"
+            width="600px"
+            heigth="600px"
           />
+          <figcaption>Dogs <strong>love</strong> their humans</figcaption>
         </figure>
       </section>
       <!-- FORM SECTION -->
+      <section>
+        <h2>Dog Form</h2>
+        <form action="#">
+          <fieldset>
+            <legend>Is your dog an indoor or an outdoor dog?</legend>
+            <label>
+              <input
+                id="indoor"
+                value="indoor"
+                type="radio"
+                name="indoor-outdoor"
+              />Indoor</label
+            >
+            <label>
+              <input
+                id="outdor"
+                value="outdoor"
+                type="radio"
+                name="indoor-outdoor"
+              />Outdoor</label
+            >
+          </fieldset>
+          <fieldset>
+            <legend>What is your dog personality?</legend>
+            <input id="loving" value="loving" type="checkbox" name="personality"><label for="loving">loving</label>
+            <input id="lazy" value="lazy" type="checkbox" name="personality"><label for="lazy">lazy</label>
+            <input id="energetic" value="energetic" type="checkbox" name="personality"><label for="energetic">energetic</label>
+          </fieldset>
+          <input type="radio" />
+          <input
+            type="text"
+            name="cutedogs1"
+            placeholder="Cute dogs url"
+            required
+          />
+          <button type="submit">Submit</button>
+        </form>
+      </section>
     </main>
     <!--*************************END OF MAIN SECTION************************-->
 
